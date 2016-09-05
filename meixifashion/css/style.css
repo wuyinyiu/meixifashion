@@ -1,0 +1,382 @@
+/*****************banner**********************/
+.bannerr{
+	width:100%;
+	height:500px;
+	padding-top:10px;
+	overflow: hidden;
+}
+.bannerr .banner{
+	width:960px;
+	height:500px;
+	overflow:hidden;
+	margin:0 auto;
+}
+.banner ul{	
+	position:relative;
+}
+.banner ul li{
+	float:left;
+}
+.banner .banner_prev{
+	position:absolute;
+	top:200px;
+	left:10px;
+	display:none;
+}
+.banner .banner_next{
+	position:absolute;
+	top:200px;
+	right:10px;
+	display:none;
+}
+/*****************主要内容**********************/
+.mainn{
+	width:100%;
+}
+.mainn .main{
+	width:960px;
+	height:454px;
+	margin:0 auto;
+	
+}
+.clearflow:after{content:'.';clear:both;display:block;height:0;overflow:hidden;visibility:hidden;}
+
+/*special*/
+.main .special{
+	height:454px;
+	width:960px;
+	background:url(../img/main_top.jpg) no-repeat;	
+}
+.special .word{
+	width: 260px;
+	height:69px;
+	background: #fff;
+	margin: 0 auto;	
+	text-align: center;
+	font-size: 16px;
+	font-family: 微软雅黑;
+	color: #333;
+}
+.special .word p{
+	padding-top:14px;
+}
+.special .special_pic{
+	width:960px;
+	margin:0 auto;
+}
+.special_pic li{
+	float:left;
+}
+.special_pic a{
+	display:block;
+}
+.special_pic .specile_center{
+	margin:0 6px;
+}
+.special_pic .special_left .special_left1{
+	display:block;
+	margin-bottom:6px;
+}
+.special_pic .special_right .special_right1{
+	display:block;
+	margin-bottom:6px;
+}
+/*******************editor*********************/
+.main .editor{
+	height:454px;
+	width:960px;
+	background:url(../img/main_top.jpg) no-repeat;	
+}
+.editor .word2{
+	width: 260px;
+	height:69px;
+	background: #fff;
+	margin: 0 auto;	
+	text-align: center;
+	font-size: 16px;
+	font-family: 微软雅黑;
+	color: #333;
+}
+.editor .word2 p{
+	padding-top:14px;
+}
+.editor .editor_pic{
+	width:960px;
+	margin:0 auto;
+}
+.editor_pic:after{content:'.';clear:both;display:block;height;0;overflow:hidden;visibility:hidden;}
+.editor_pic li{
+	float:left;
+}
+.editor_pic a{
+	display:block;
+}
+.editor_pic .editor_center{
+	display:block;
+	margin:0 6px;
+}
+.editor_pic .editor_left .editor_left1{
+	display:block;
+	margin-bottom:6px;
+}
+.editor .editor_right .editor_right1{
+	display:block;
+	margin-bottom:6px;
+}
+/**************************男士精选***************************/
+.main .him{
+	height:454px;
+	width:960px;
+	background:url(../img/main_top.jpg) no-repeat;	
+}
+.him .word3{
+	width: 260px;
+	height:69px;
+	background: #fff;
+	margin: 0 auto;	
+	text-align: center;
+	font-size: 16px;
+	font-family: 微软雅黑;
+	color: #333;
+}
+.him .word3 p{
+	padding-top:14px;
+}
+.him .editor_pic{
+	width:960px;
+	margin:0 auto;
+}
+.him_pic li{
+	float:left;
+}
+.him_pic a{
+	display:block;
+}
+.him_pic .him_center{
+	margin:0 6px;
+}
+.him_pic .him_left .him_left1{
+	display:block;
+	margin-bottom:6px;
+}
+.him .him_right .him_right1{
+	display:block;
+	margin-bottom:6px;
+}
+/*********************女士精选********************/
+.main .her{
+	height:454px;
+	width:960px;
+	background:url(../img/main_top.jpg) no-repeat;	
+}
+.her .word4{
+	width: 260px;
+	height:69px;
+	background: #fff;
+	margin: 0 auto;	
+	text-align: center;
+	font-size: 16px;
+	font-family: 微软雅黑;
+	color: #333;
+}
+.her .word4 p{
+	padding-top:14px;
+}
+.her .editor_pic{
+	width:960px;
+	margin:0 auto;
+}
+.her_pic li{
+	float:left;
+}
+.her_pic a{
+display:block;
+}
+.her_pic .her_center{
+	margin:0 6px;
+}
+.her_pic .her_left .her_left1{
+	display:block;
+	margin-bottom:6px;
+}
+.her .her_right .her_right1{
+	display:block;
+	margin-bottom:6px;
+}
+/************************正被选购**************************/
+.main .sold{
+	height:335px;
+	width:960px;
+	background:url(../img/main_top.jpg) no-repeat;
+	position:relative;	
+}
+.sold .word5{
+	width: 260px;
+	height:69px;
+	background: #fff;
+	margin: 0 auto;	
+	text-align: center;
+	font-size: 16px;
+	font-family: 微软雅黑;
+	color: #333;
+}
+.sold .word5 p{
+	padding-top:14px;
+}
+.sold .pic_sold{
+	height:260px;
+	width:960px;
+	margin:0 auto;
+	overflow:hidden;
+}
+.sold .sold_pic{
+	height:260px;
+}
+.sold_pic a{
+	display:block;
+}
+.sold_pic li{
+	float:left;
+	width:160px;
+	margin:0 15px;
+}
+.sold_pic li p{
+	height:44px;
+	color:#555555;
+	font-size:12px;
+	text-align:center;
+}
+.sold_pic li .c_gray{
+	font-size:12px;
+	color:#999999;
+	text-align: center;
+	height:18px;
+}
+.sold .prev{
+	position:absolute;
+	top:168px;
+	left:0px;
+}
+.sold .next{
+	position:absolute;
+	top:168px;
+	right:0px;
+}
+/**********时尚专题推荐*************/
+.main .fashion{
+	height:335px;
+	width:960px;
+	background:url(../img/main_top.jpg) no-repeat;
+	position:relative;	
+}
+.fashion .words6{
+	width: 260px;
+	height:69px;
+	background: #fff;
+	margin: 0 auto;	
+	text-align: center;
+	font-size: 16px;
+	font-family: 微软雅黑;
+	color: #333;
+}
+.fashion .words6 p{
+	padding-top:14px;
+}
+.fashion .fashion_pic img{
+	width:316px;
+}
+.fashion_pic li{
+	float:left;
+	width:316px;
+	position:relative;
+}
+.fashion_pic a{
+	display:block;
+}
+.fashion_pic .fashion_center{
+	margin:0 6px;
+}
+.fashion_pic li a{
+	color:#000;
+}
+.fashion_pic li p{	
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;	
+	background:#fff;
+	opacity:0.8;
+	width:316px;
+	height:36px;
+	position:absolute;
+	bottom:20px;
+	left:0;	
+}
+.fashion_pic li span{
+	display:inline-block;
+	
+	width:301px;
+	height:36px;
+	line-height: 36px;
+	font-size: 18px;
+	position:absolute;
+	bottom:20px;
+	left:0;
+	padding-left: 15px;
+}
+/***********夏季清凉**********/
+.main .summer{
+	width:960px;
+	margin-top:20px;	
+}
+/***********体验更多**********/
+.main .experience{
+	height:335px;
+	width:960px;
+	background:url(../img/main_top.jpg) no-repeat;
+	position:relative;	
+}
+.experience .words7{
+	width: 260px;
+	height:69px;
+	background: #fff;
+	margin: 0 auto;	
+	text-align: center;	
+	color: #333;
+}
+.experience .words7 p{
+	padding-top:14px;
+}
+.experience	.experience_pic{
+	height:;
+}
+.experience_pic a{
+	display:block;
+}
+.experience_pic li{
+	float:left;
+}
+			
+.experience_pic .experience_center{
+	margin:0 5px;
+}
+.experience_center form{
+	width:316px;
+	font-size:12px;
+}
+.experience_center #text{
+	border:1px solid #ccc;
+	width:163px;
+	height:27px;
+	background:url(../img/mail.gif) no-repeat 8px;
+	color:#999999;
+	margin-left:40px;
+	text-indent:3em;
+	outline:none;
+}
+.experience_center #btn{
+	border:0;
+	background:#000;
+	color:#fff;
+	width:70px;
+	height:27px;
+}
